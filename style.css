@@ -537,7 +537,40 @@ footer .copyright{
   text-align: center;
 }
 
+#page-header {
+  background-image: url(img/banner/b1.png);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+  color: #fff;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination a{
+  text-decoration: none;
+  background-color: #4CAF50;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
 @media (max-width:799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
   #navbar {
     display: flex;
     flex-direction: column;
@@ -583,6 +616,49 @@ footer .copyright{
 
   #lg-bag {
     display: none;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+
+  #product1 .pro-container {
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    margin: 15px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 28%;
+  }
+
+  #newsletter .form {
+    width: 70%;
   }
 }
 
