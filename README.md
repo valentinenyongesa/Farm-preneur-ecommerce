@@ -1,4 +1,7 @@
 This project involves creating an agricultural Ecommerce Website to bridge the gap betwwen buyers and sellers in Agriculture. This is a platform to incorporate technology Agriculture.
+
+The various steps involved are:
+
 1. Created a logo using canva
 2. Created the navigation bar
 3. Creating the hero section
